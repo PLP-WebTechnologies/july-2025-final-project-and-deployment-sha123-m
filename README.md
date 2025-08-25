@@ -11,7 +11,7 @@ Showcase skills, projects, and contact information with real‑time widgets and 
 - **About** (`about.html`): Bio, timeline, skills with progress.
 - **Projects** (`projects.html`): Filterable project grid.
 - **Contact** (`contact.html`): Accessible form with custom JS validation.
-- **404** (`404.html`): Optional not‑found page.
+
 
 ## Features
 - Mobile‑first, responsive layout (Grid & Flex).
@@ -24,7 +24,7 @@ Showcase skills, projects, and contact information with real‑time widgets and 
 ## Setup
 1. Clone or download this repo.
 2. Replace images in `/images/` with your own.
-3. In `js/main.js`, set your OpenWeatherMap key: `REPLACE_WITH_YOUR_OPENWEATHER_KEY`.
+3. In `js/script.js`, set your OpenWeatherMap key: `REPLACE_WITH_YOUR_OPENWEATHER_KEY`.
 4. Open `index.html` in a browser.
 
 ## Deploy
