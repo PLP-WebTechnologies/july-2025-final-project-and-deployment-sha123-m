@@ -1,90 +1,51 @@
-# 📦 Final Assignment: Build, Organize, and Deploy a Multipage Website
+```md
+# Sharon Gacheri – Multipage Portfolio
 
-You're now ready to bring everything together—HTML, CSS, JavaScript, planning, structure, and deployment. This final project challenges you to **conceptualize, build, and deploy a multi-page website** that is responsive, interactive, and ready for the real world.
+A responsive, accessible, and interactive portfolio built with semantic HTML5, modern CSS, and vanilla JavaScript.
 
-This assignment will guide you from planning your site all the way to deploying it online. Let’s make your project *production-worthy*! 🚀
+## Purpose
+Showcase skills, projects, and contact information with real‑time widgets and a clean UX.
 
----
+## Pages
+- **Home** (`index.html`): Hero, highlights, live clock & weather, featured projects.
+- **About** (`about.html`): Bio, timeline, skills with progress.
+- **Projects** (`projects.html`): Filterable project grid.
+- **Contact** (`contact.html`): Accessible form with custom JS validation.
+- **404** (`404.html`): Optional not‑found page.
 
-## 🌐🎯 Part 1: Planning and Organizing a Multipage Website
+## Features
+- Mobile‑first, responsive layout (Grid & Flex).
+- Accessible landmarks, skip link, focusable controls.
+- Dark/Light theme with persistence.
+- IntersectionObserver reveal animations.
+- Filterable projects (no frameworks).
+- Real‑time clock & weather (OpenWeatherMap API).
 
-Before you write any code, take time to plan:
+## Setup
+1. Clone or download this repo.
+2. Replace images in `/images/` with your own.
+3. In `js/main.js`, set your OpenWeatherMap key: `REPLACE_WITH_YOUR_OPENWEATHER_KEY`.
+4. Open `index.html` in a browser.
 
-* Define your website's purpose (portfolio, product showcase, blog, etc.)
-* Outline 3–5 pages (e.g., Home, About, Services, Contact, Gallery)
-* Sketch or describe the layout of each page
-* Map out internal navigation (how pages link to one another)
+## Deploy
+### GitHub Pages
+1. Push to a GitHub repo.
+2. Settings → Pages → Source: **Deploy from a branch** (e.g., `main` / root).
+3. Open the provided URL.
 
-**Goal:** Show intentional structure and user journey across the site.
+### Netlify
+- Drag & drop the project folder to https://app.netlify.com/drop or connect your Git repo.
 
----
+### Vercel
+- `Import Project` from Git and deploy. Ensure `index.html` at root.
 
-## 🌍💻 Part 2: Build the Website Using HTML5, CSS, and JavaScript
-
-Using your plan, begin building:
-
-* Use HTML5 for semantic structure
-* Apply CSS for responsive layout, styling, and animations
-* Use JavaScript to add interactivity (menus, forms, toggles, dynamic content)
-
-Each page should:
-
-* Be mobile-responsive
-* Share a consistent layout/header/footer
-* Include at least one interactive element (e.g., form validation, toggle menu, animation on scroll)
-
-**Goal:** Integrate everything you’ve learned in a cohesive, functioning project.
-
----
-
-## 🛠️🚀 Part 3: Best Practices for Code Organization
-
-Before deployment, refactor your project to follow production-friendly practices:
-
-* Organize files in folders (`/css`, `/js`, `/images`, etc.)
-* Write clean, modular, and commented code
-* Use meaningful file names and relative paths
-* Validate your HTML/CSS and test on different screen sizes
-
-**Goal:** Prepare your codebase to be readable, maintainable, and scalable.
+## License
+MIT
+```
 
 ---
 
-## 🌐🚀 Part 4: Introduction to Hosting and Deployment
-
-Once your project is complete, choose a method to **host your site online**.
-
-You can use:
-
-* **GitHub Pages** (great for portfolios and static sites)
-* **Netlify** (powerful CI/CD features and easy form support)
-* **Vercel** (lightning-fast deployment for frontend projects)
-
-Deploy your project and confirm that:
-
-* All links and scripts work
-* It loads properly on mobile and desktop
-* It has a clear, shareable URL
-
-**Goal:** Publish your work online and make it accessible to the world.
-
----
-
-## Deliverables
-
-1. A GitHub repository containing:
-
-   * Your complete project code, properly organized
-   * A `README.md` file explaining your project purpose, structure, and live URL
-2. A live deployed website (hosted via GitHub Pages, Netlify, or Vercel)
-
----
-
-## Outcome
-
-* Clarity and thoroughness of planning documentation
-* Proper use of HTML5, CSS, and JavaScript across multiple pages
-* Responsive and accessible design
-* Clean, well-organized, and commented code
-* Successful live deployment with a working link
-* Evidence of following best practices
+### Notes
+- Replace placeholder links and images with real ones.
+- For weather, create a free API key at OpenWeatherMap and insert it in `main.js`.
+- Validate HTML/CSS via W3C validators and test across devices.

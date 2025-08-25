@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Sharon Gacheri – Web Developer & IT Specialist. Portfolio, projects, and contact." />
+  <meta name="author" content="Sharon Gacheri" />
+  <link rel="canonical" href="https://your-domain.example/" />
+  <title>Sharon Gacheri | Web Developer</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header" role="banner">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="logo" href="index.html">Sharon<span>Dev</span></a>
+
+      <button id="navToggle" class="nav__toggle" aria-expanded="false" aria-controls="navMenu" aria-label="Open menu">☰</button>
+
+      <ul id="navMenu" class="nav__menu">
+        <li><a class="nav__link" href="index.html">Home</a></li>
+        <li><a class="nav__link" href="about.html">About</a></li>
+        <li><a class="nav__link" href="project.html">Projects</a></li>
+        <li><a class="nav__link" href="contact.html">Contact</a></li>
+      </ul>
+
+      <button id="themeToggle" class="theme-toggle" aria-label="Toggle dark mode">🌙</button>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero reveal" aria-labelledby="hero-title">
+      <div class="container hero__grid">
+        <div>
+          <h1 id="hero-title">Hi, I’m <span class="accent">Sharon Gacheri</span></h1>
+          <p class="lead">Web Developer & IT Specialist focused on building accessible, performant, and user‑first experiences.</p>
+          <div class="cta-group">
+            <a class="btn" href="project.html">View Projects</a>
+            <a class="btn btn--ghost" href="contact.html">Hire Me</a>
+          </div>
+        </div>
+        <figure class="hero__figure">
+          <img src="images/avatar.jpg" alt="Portrait of Sharon Gacheri" loading="lazy" />
+        </figure>
+      </div>
+    </section>
+
+    <section class="features reveal" aria-label="Highlights">
+      <div class="container features__grid">
+        <article class="card">
+          <h3>Responsive Design</h3>
+          <p>Layouts that adapt gracefully across mobile, tablet, and desktop with CSS Grid/Flexbox.</p>
+        </article>
+        <article class="card">
+          <h3>Accessible by Default</h3>
+          <p>Semantics, color contrast, focus states, and ARIA where needed for inclusive UX.</p>
+        </article>
+        <article class="card">
+          <h3>Data‑Driven</h3>
+          <p>Interactive, real‑time features and clean code structure for scalability.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="live reveal" aria-labelledby="live-title">
+      <div class="container widgets">
+        <h2 id="live-title">Live Dashboard</h2>
+        <div class="widget" aria-live="polite">
+          <h3>⏰ Local Time</h3>
+          <p id="clockTime">--:--:--</p>
+          <p id="clockDate">--/--/----</p>
+        </div>
+        <div class="widget" aria-live="polite">
+          <h3>🌦 Weather</h3>
+          <p id="weatherLoc">Loading…</p>
+          <p id="weatherTemp"></p>
+          <p id="weatherCond"></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects-preview reveal" aria-labelledby="preview-title">
+      <div class="container">
+        <h2 id="preview-title">Featured Projects</h2>
+        <div id="projectCards" class="card-grid"></div>
+        <p class="center"><a class="btn" href="projects.html">See all projects</a></p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer__grid">
+      <p>© <span id="year"></span> Sharon Gacheri</p>
+      <ul class="social">
+        <li><a href="#" aria-label="GitHub profile">GitHub</a></li>
+        <li><a href="#" aria-label="LinkedIn profile">LinkedIn</a></li>
+        <li><a href="mailto:sharonmwenda436@gmail.com" aria-label="Email Sharon">Email</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <button id="backToTop" class="back-to-top" aria-label="Back to top">↑</button>
+
+  <script src="js/script.js" defer></script>
+</body>
+</html>
