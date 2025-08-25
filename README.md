@@ -9,7 +9,7 @@ Showcase skills, projects, and contact information with real‑time widgets and 
 ## Pages
 - **Home** (`index.html`): Hero, highlights, live clock & weather, featured projects.
 - **About** (`about.html`): Bio, timeline, skills with progress.
-- **Projects** (`projects.html`): Filterable project grid.
+- **Project** (`projects.html`): Filterable project grid.
 - **Contact** (`contact.html`): Accessible form with custom JS validation.
 - **404** (`404.html`): Optional not‑found page.
 
